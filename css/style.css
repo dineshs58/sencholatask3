@@ -1,0 +1,225 @@
+
+.nav-btn
+{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.navbar-nav>.nav-item>.nav-link
+{
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color:white;
+}
+/* .navbar-nav>.nav-item>.nav-link:hover
+{
+    color:rgb(255,193,7);
+} */
+:not(.active) .nav-link:hover
+{
+    color:rgb(255,193,7);
+}
+.dropdown-menu
+{
+    margin-left:70%;
+    transition: all 0.1s;
+}
+.dropdown-item:hover
+{
+    background-color: rgb(255,193,7);
+}
+.nav-item>.active
+{
+    color:rgb(255,193,7) !important;
+}
+/* nagivation end*/
+.uparrow
+{
+    position: fixed;
+    top:90%;
+    right: 3%;
+    background-color: rgb(255,193,7);
+    width:40px;
+    text-align: center;
+    height: 50px;
+    font-size: 35px;
+    vertical-align:middle;
+    
+}
+.fa-arrow-up-long
+{
+    color:white !important;
+}
+.fa-user-tie
+{
+    font-size: 4em !important;
+}
+.cards
+{
+    background:rgb(250,250,250) !important;
+    
+}
+.fa-solid
+{
+    color:rgb(255,193,7);
+}
+.cards:hover>.card-body>.fa-solid
+{
+    color:white;
+}
+.cards:hover
+{
+    background: rgb(255,193,7) !important;
+    color:aliceblue !important;
+}
+
+.carousel-inner
+{
+    width: 100%;
+    height: 100%;
+}
+
+.abt-mcol
+{
+    height: 400px;
+    
+    padding: 0px !important;
+}
+.abt-1
+{
+    float: left;
+}
+.abt-2
+{
+    float: left;
+}
+.abt-3
+{
+    float: left;
+}
+.abt-4
+{
+    float: left;
+}
+.abtc1
+{
+    
+    width:50%;
+    height:50%;
+    
+}
+.abt-mcol-2
+{
+    clear: left;
+}
+.row-menu-h2>.col-4
+{
+    border:1px solid red;
+    padding: 100px;
+}
+.menu-head2
+{
+    display: flex;
+    align-items: center;
+}
+.menu-img
+{
+    float: left;
+    margin-right:17px;
+}
+
+.booking
+{
+    transition: all 1s;
+    border: 1px solid gainsboro;
+}
+.bookcol
+{
+    height: 550px;
+   
+}
+.bookcol1
+{
+    background: url('../img/booking/c11.jpg') no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.bookcol2
+{
+    background: rgb(15,23,43);
+    transition: all 2s;
+    
+}
+.contact{
+    background: rgb(15,23,43);
+}
+.conatctrow
+{
+    color:aliceblue;
+    height:auto;
+    
+
+}
+.ch
+{
+    color:rgb(255,193,7);
+}
+.ch:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ccol1>p:hover,
+.ccol2>p:hover
+{
+    font-weight: 600;
+    transition: all 1s;
+    cursor: pointer;
+}
+@media (max-width:567px)
+{
+    .carousel
+    {
+        height:300px !important;
+
+    }
+    .carousel-caption
+    {
+        top:8% !important;
+
+    }
+    .ca-div1-h1
+    {
+        font-size: 16px  !important;
+    }
+    .cards
+    {
+        height:300px;
+        min-width: 80px;
+        
+    }
+    
+}
+@media (min-width:600px)
+{
+    .carousel
+    {
+        height:500px !important;
+    }
+    .carousel-caption
+    {
+        top:10% !important;
+    }
+    
+    .cards
+    {
+        height:300px;
+        min-width:23%;
+        border:1px solid grey;
+        border-radius:10px;
+       
+    }
+}
